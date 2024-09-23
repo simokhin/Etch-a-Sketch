@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .content {
@@ -27,17 +28,19 @@
 
 #container {
     background-color: #705C53;
-    border: 5px solid #705C53;
     display: flex;
     flex-wrap: wrap;
-    width: 479px;
-    height: 479px;
-    gap: 1px;
+    justify-content: space-between;
+    width: 800px;
+    height: 800px;
 }
 
-#row {
-    width: 29px;
-    height: 29px;
+.row {
+    flex: auto;
+    border: 1px solid #705C53;
     background-color: #F5F5F7;
 }
 
+#rowColor {
+    background-color: #705C53;
+}
