@@ -8,6 +8,9 @@ function createSquare(sizeX, sizeY) {
         let newDiv = document.createElement("div");
         newDiv.setAttribute("id", "row");
         container.appendChild(newDiv);
+        newDiv.addEventListener("mouseenter", (e) => {
+            newDiv.setAttribute("style", "background-color: blue")
+        })
     }
 }
 

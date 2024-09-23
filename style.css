@@ -5,7 +5,7 @@
 }
 
 .content {
-    background-color: aqua;
+    background-color: #F5F5F7;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -13,19 +13,18 @@
 }
 
 #container {
-    border: 5px solid red;
-    background-color: black;
+    background-color: #705C53;
     display: flex;
     flex-wrap: wrap;
-    width: 314px;
-    height: 314px;
+    width: 520px;
+    height: 520px;
     justify-content: center;
     align-items: center;
     gap: 1px;
 }
 
 #row {
-    background-color: white;
-    width: 18px;
-    height: 18px;
+    background-color: #F5F5F7;
+    width: 30px;
+    height: 30px;
 }
