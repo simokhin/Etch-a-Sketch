@@ -1,5 +1,7 @@
 let container = document.querySelector("#container");
 
+
+
 createSquare(16, 16);
 
 function createSquare(sizeX, sizeY) {
@@ -9,7 +11,7 @@ function createSquare(sizeX, sizeY) {
         newDiv.setAttribute("id", "row");
         container.appendChild(newDiv);
         newDiv.addEventListener("mouseenter", (e) => {
-            newDiv.setAttribute("style", "background-color: blue")
+            newDiv.setAttribute("style", "background-color: #705C53")
         })
     }
 }

@@ -1,30 +1,43 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .content {
     background-color: #F5F5F7;
     display: flex;
+    flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+#gridSizeButton {
+    border: 2px solid #705C53;
+    background-color: #F5F5F7;
+    padding: 5px 10px; 
+}
+
+#gridSizeButton:hover {
+    border: 2px solid black;
+    background-color: #705C53;
+    color: white;
 }
 
 #container {
     background-color: #705C53;
+    border: 5px solid #705C53;
     display: flex;
     flex-wrap: wrap;
-    width: 520px;
-    height: 520px;
-    justify-content: center;
-    align-items: center;
+    width: 479px;
+    height: 479px;
     gap: 1px;
 }
 
 #row {
+    width: 29px;
+    height: 29px;
     background-color: #F5F5F7;
-    width: 30px;
-    height: 30px;
 }
+
