@@ -29,6 +29,7 @@
     border: 2px solid #705C53;
     background-color: #F5F5F7;
     color: black;
+    cursor: pointer;
 }
 
 #container {
