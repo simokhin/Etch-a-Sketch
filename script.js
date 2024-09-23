@@ -18,7 +18,11 @@ function createSquare(sizeX, sizeY) {
 }
 
 sizeButton.addEventListener("click", () => {
-    let gridSize = prompt("Choose grid size");
+    let gridSize = prompt("Choose grid size (1 - 100)");
+    if (gridSize > 100 || gridSize < 1) {
+        alert ("Choose grid size from 1 - 100")
+        gridSize = 16;
+    }
     while (container.firstChild){
         container.removeChild(container.firstChild);
     }
