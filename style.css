@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .content {
     background-color: #F5F5F7;
@@ -17,7 +19,8 @@
 #gridSizeButton {
     border: 2px solid #705C53;
     background-color: #F5F5F7;
-    padding: 5px 10px; 
+    padding: 10px 20px; 
+    font-size: 16px;
 }
 
 #gridSizeButton:hover {
@@ -38,7 +41,7 @@
 .row {
     flex: auto;
     border: 1px solid #705C53;
-    background-color: #F5F5F7;
+    background-color: #ffffff;
 }
 
 #rowColor {
