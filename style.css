@@ -17,17 +17,18 @@
 }
 
 #gridSizeButton {
-    border: 2px solid #705C53;
-    background-color: #F5F5F7;
-    padding: 10px 20px; 
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #705C53;
+    padding: 15px 30px; 
     font-size: 16px;
     border-radius: 10px;
+    color: white;
 }
 
 #gridSizeButton:hover {
-    border: 2px solid black;
-    background-color: #705C53;
-    color: white;
+    border: 2px solid #705C53;
+    background-color: #F5F5F7;
+    color: black;
 }
 
 #container {
