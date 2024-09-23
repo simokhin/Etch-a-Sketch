@@ -4,16 +4,28 @@
     box-sizing: border-box;
 }
 
-#row {
-    flex: 1;
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
+.content {
+    background-color: aqua;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 #container {
+    border: 5px solid red;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
-    width: 320px;
-    height: 320px;
+    width: 314px;
+    height: 314px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+#row {
+    background-color: white;
+    width: 18px;
+    height: 18px;
 }
