@@ -4,6 +4,11 @@ let sizeButton = document.querySelector("#gridSizeButton");
 
 createSquare(16, 16);
 
+function randomColor(){
+    color = '#' + Math.floor(Math.random()*16777215).toString(16);
+    return color;
+}
+
 function createSquare(sizeX, sizeY) {
     let sizeSquare = sizeX * sizeY;
     for (let i = 1; i <= sizeSquare; i++){
@@ -12,7 +17,7 @@ function createSquare(sizeX, sizeY) {
         newDiv.setAttribute("style", `width: ${800 / sizeX}px; hight: ${800 / sizeX}px`);
         container.appendChild(newDiv);
         newDiv.addEventListener("mouseenter", (e) => {
-            newDiv.setAttribute("id", "rowColor")
+            newDiv.setAttribute("style", `width: ${800 / sizeX}px; hight: ${800 / sizeX}px; background-color: ${randomColor()};`);
         })
     }
 }
