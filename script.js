@@ -14,10 +14,10 @@ function createSquare(sizeX, sizeY) {
     for (let i = 1; i <= sizeSquare; i++){
         let newDiv = document.createElement("div");
         newDiv.setAttribute("class", "row");
-        newDiv.setAttribute("style", `width: ${800 / sizeX}px; hight: ${800 / sizeX}px`);
+        newDiv.setAttribute("style", `width: ${600 / sizeX}px; hight: ${600 / sizeX}px`);
         container.appendChild(newDiv);
         newDiv.addEventListener("mouseenter", (e) => {
-            newDiv.setAttribute("style", `width: ${800 / sizeX}px; hight: ${800 / sizeX}px; background-color: ${randomColor()};`);
+            newDiv.setAttribute("style", `width: ${600 / sizeX}px; hight: ${600 / sizeX}px; background-color: ${randomColor()};`);
         })
     }
 }
