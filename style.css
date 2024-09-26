@@ -1,8 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header {
@@ -14,12 +11,12 @@ header {
 
 h1 {
     color: #705C53;
-    padding-left: 50px;
+    padding-left: 3rem;
     cursor: default;
 }
 
 h1:hover {
-    color: red;
+    color: #ff0000;
 }
 
 .content {
@@ -33,12 +30,11 @@ h1:hover {
 }
 
 #gridSizeButton {
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #ffffff;
     background-color: #705C53;
-    padding: 13px 25px; 
-    font-size: 16px;
-    border-radius: 10px;
-    color: white;
+    padding: 0.7rem 1.3rem; 
+    border-radius: 0.5rem;
+    color: #ffffff;
 }
 
 #gridSizeButton:hover {
@@ -75,12 +71,12 @@ footer {
 }
 
 #github-logo {
-    width: 15px;
+    display: inline;
+    width: 1rem;
 }
 
 #github-link {
-    font-size: 15px;
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
